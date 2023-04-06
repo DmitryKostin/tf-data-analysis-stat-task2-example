@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 
+from scipy.stats import norm
+
 chat_id = 944932368
 
 def solution(p: float, x: np.array) -> tuple:
